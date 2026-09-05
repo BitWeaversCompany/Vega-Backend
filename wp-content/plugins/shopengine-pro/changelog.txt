@@ -1,0 +1,334 @@
+== Changelog ==
+Version: 2.7.4 // 08-06-2026
+Added: Wishlist template support.
+Added: Wishlist widget.
+Added: Introduced a responsive grid column system with customizable styling options in the Order Confirm widget.
+Added: Show Product Image toggle with responsive size and border-radius controls in Order Details widget.
+Added: Show Shipping Address toggle and support for responsive 1–2 column layout in Address Details.
+Added: Icon upload option along with customizable styling and flexible positioning for the order number text in the Thank You Widget.
+Fixed: issue where Product Size Chart was not displaying for parent categories.
+
+Version: 2.7.3 // 07-04-2026
+Improved: Pre-built template library.
+Fixed: Issue with pre-built template importing.
+Fixed: WooCommerce notice not displaying in the Account Address widget.
+
+Version: 2.7.2 // 16-02-2026
+Added: Child category selection support for single, archive, and quick view page templates.
+Added: Show/hide control for the account navigator list indicator in the account navigator widget.
+Added: Mobile responsive support for the sales notification add-on.
+Improved: Account details widget.
+Fixed: Price calculation issue in the Partial Payment add-on.
+Fixed: Customer details visibility issue in the thank you order confirmation widget.
+Fixed: Minor security vulnerability related to unused filter hook calls.
+
+Version: 2.7.1 // 23-11-2025
+Fixed: Woostify theme conflict issue with Product Carousel widget.
+Fixed: Phlox theme conflict issue with sticky-fly cart.
+Fixed: Product filter widget internal server error.
+
+Version: 2.7.0 // 20-10-2025
+Added: Linkable attribute support for the Product Tabs widget.
+
+Version: 2.6.9 // 21-09-2025
+Added: Product brand support on Product Filter widget.
+
+Version: 2.6.8 // 02-09-2025
+Fixed: Product variations doesn't appear on the Crossell popup add-on.
+Fixed: Woostify theme conflict with Sticky fly cart add-on.
+
+Version: 2.6.7 // 21-07-2025
+Fixed: Multistep Checkout add-on UI not showing.
+
+Version: 2.6.6 // 07-07-2025
+Improved: Product Filter widget subcategory.
+Improved: Account Navigation widget.
+Fixed: Compatibility issue with WordPress 6.8.
+Fixed: Multistep Checkout adaptive height issue for shipping methods.
+Fixed: Additional checkout field required issue.
+Fixed: Address Details and Order Confirm widget showing issue.
+Fixed: Multistep Checkout issue with Elementor pro header and footer template.
+Fixed: Sticky fly cart counter style and closing button issue.
+
+Version: 2.6.5 // 23-03-2025
+Fixed: Product filter widget star rating style issue.
+Fixed: Sub category expand/collapse issue of Product filter widget.
+
+Version: 2.6.4 // 11-03-2025
+Fixed: Quick checkout redirect issue for non logged in user.
+Fixed: Conflict with WP Rocket plugin.
+Fixed: Widget style issue with Elementor Pro plugin.
+
+Version: 2.6.3 // 04-02-2025
+Fixed: Sticky fly cart product qty updating issue with quick view add-on.
+Fixed: Product carousel widget broken.
+Fixed: Shortcode not working issue with block.
+
+Version: 2.6.2 // 24-12-2024
+Fixed: Badge add-on image uploading not working.
+Fixed: Price issue for variable product if use European currency with fractional value.
+Fixed: Month name translation issue.
+
+Version: 2.6.1 // 30-09-2024
+Fixed: Quick checkout add-on issue with blocks theme.
+Fixed: Falsh sale add-on not working with group products.
+Fixed: Sticky fly cart add-on is not working with blocks theme.
+Fixed: Vacation add-on custom off days not working.
+Fixed: Flash sale block controls and stock quantity issue.
+Fixed: Cross sell popup add-on issue.
+
+Version: 2.6.0 // 04-09-2024
+Improved: Checkout additional field add-on.
+Improved: Pre-Order add-on.
+Fixed: Quick checkout issue with variable product.
+
+Version: 2.5.9 // 25-07-2024
+Fixed: Badge add-on not working with Block theme.
+
+Version: 2.5.8 // 16-07-2024
+Improved: Variable product sale badge.
+Fixed: Product carousel and product filter widget query filter issue.
+
+Version: 2.5.7 // 09-06-2024
+Improved: Partial Payment add-on.
+Fixed: Flash sale add-on calculation issue.
+Fixed: Sales notification thumbnail issue.
+Fixed: Single product page loading issue for Pre-Order add-on.
+
+Version: 2.5.6 // 31-03-2024
+Added: Sticky fly cart icon changing option.
+Fixed: Comparison add-on issue with product attributes.
+Fixed: Partial payment issue with variable product.
+Fixed: Product filter widget issue.
+
+Version: 2.5.5 // 04-02-2024
+New: Partial payment more than two installments support.
+Fixed: Best selling product widget issue.
+Fixed: Deprecated issue with PHP 8.2.
+
+Version: 2.5.2 // 2-11-2023
+Improved: Empty cart default design.
+Fixed: woocommerce_thankyou hook not working if activate the thank you page template.
+Fixed: UI issue for backorder add-on.
+Fixed: Avatar widget icon issue.
+
+Version: 2.5.1 // 18-10-2023
+Fixed: Shipping form widget additional field re-ordering issue.
+Fixed: Sales notification product image issue.
+
+Version: 2.5.0 // 27-09-2023
+Improved: Performance for order query for HPOS.
+Added: Option to change Back Order add-on message.
+Fixed: On Sale filter doesn't show the variable products.
+Fixed: Cross sell popup product quantity issue with default post quantity settings.
+Fixed: Add to cart button not showing on best selling product widget.
+
+Version: 2.4.0 // 13-09-2023
+Improved: Lost password and reset password template names.
+Fixed: Default currency from currency add-on setting were not working.
+Fixed : Direct access using file path.
+
+Version: 2.3.1 // 04-09-2023
+Fixed: Fixed admin notice permission issue.
+
+Version: 2.3.0 // 22-08-2023
+Added: Compatibility for WooCommerce HPOS updates.
+Fixed: ShopEngine icon not showing in product carousel widget.
+Fixed: Error in account order details page.
+Fixed: Overflow issue in product carousel.
+Fixed: Border width in product size chart widget.
+
+Version: 2.2.2 // 18-06-2023
+Added: Product Carousel widget.
+Fixed: Discount price in badge add-on.
+Fixed: Checkout additional field order details in the checkout page.
+Fixed: My Account Reset/Lost Password Form widget control issues.
+Fixed: The next button should hide at the last step.
+Fixed: Selected currency was not showing in currency switcher.
+
+Version: 2.2.1 // 07-03-2023
+Improved: Hide next button in last step of multistep checkout form.
+Fixed: Acccount reset and lost password form issues.
+Fixed: Additional field and discount issue fixed.
+
+Version: 2.2.0 // 18-01-2023
+Added: Select field option for checkout custom field.
+Added: Partial payment support for group product.
+Fixed: Reset password preview.
+Fixed: Discount price and badge in flash sale.
+Fixed: Thank you page not showing.
+Improved: Security, nonce checking and escaping.
+
+Version: 2.1.0 // 29-11-2022
+Added: Direct checkout feature in archive product widget.
+Added: Checkout order pay template and widget.
+Added: Partial payment support on checkout template.
+Added: Direct checkout feature on loop products.
+Added: Variable product support for Flash sale.
+Fixed: Flash sale pricing and stock issue.
+
+Version: 2.0.0 // 01-11-2022
+Added: Coupon Restrictions by Payment Methods.
+Added: Multistep checkout add-on shape, border, border-radius control.
+Added: Account form login input active color, typography control, register typography control.
+Added: Sticky flyCart support in product details page.
+Added: Lost password template and form widget.
+Added: Reset password template and form widget.
+Fixed: Partial payment not working in quick checkout popup.
+Improved: SEO.
+
+Version: 1.9.2 // 07-09-2022
+Added: Text type Badge creation
+Improved: RTL support
+Improved: SEO
+
+Version: 1.9.1 // 17-08-2022
+Added: Currency rate sync button inside currency switcher add-on settings
+Added: Account form login widget input field border-radius, button hover background & button border radius control.
+Added: Account Register Form widget input field border-radius,button hover background,button border radius & button width control.
+Fixed: Cross-sell popup not showing in the right place
+Fixed: Pre-Order Countdown is not showing the correct time.
+Fixed: Cross Sell Popup Issue with Astra Pro Addon
+Fixed: product filter attributes custom ordering issue
+Fixed: Attribute Icon issue in Product filters widget
+
+Version: 1.9.0 // 19-07-2022
+Added: Avatar Module & Avatar Widget
+Added: Circle style in Product Filters widget
+Added: Product Counter Badge for Category in Product Filters widget
+Added: Scrollbar for Category in Product Filters widget
+Added: Overlay for Off canvas in Product Filters weight
+Fixed: Filter widget button outline issue.
+Fixed: Vacation add-on elementor view issue
+
+Version: 1.8.0 // 18-04-2022
+Added: Bulk Coupon Export. 
+Added: Bulk Coupon System with Advance Coupon Module.
+Added: Some Controls for badge.
+Added: Cross sell Popup after added to cart.
+Added: Conditional templates.
+Added: Coupon widget.
+Fixed: Badge add-on image conflict with sticky fly cart image. 
+Fixed: My account template lost password page URL issue. 
+Fixed: Checkout additional field add-on radio type error.  
+Fixed: Category doesn't show third level to Product filter widget.
+
+Version: 1.7.0 // 27-03-2022
+Added: Multistep checkout system
+Added: Vacation add-on.
+Added: Image Badge in badge add-on.
+Added: Vacation widget for vacation add-on.
+Added: Arabic Translation file.
+Fixed: Sticky fly cart icon not showing for non-logged-in users
+Fixed: Best selling product widget issues (alignment, gaping, control).
+Fixed: RTL & flying cart double image shown issue.
+Fixed: Cart text translation issue.
+
+Version: 1.6.2 // 15-02-2022
+Added: Full RTL support.
+Added: Sticky fly cart add-on - page condition for showing.
+Added: Theme support hooks & class/functions.
+Fixed: Sticky fly cart add-on - styling issues.
+Fixed: Flash sale products stock issue.
+Fixed: Cookies warning.
+Fixed: Resolve rating, filtering, checkbox, and dropdown issue.
+
+Version: 1.6.1 // 30-01-2022
+Added: Account details widget input and save button border control added.
+Improved: Product size chart widget.
+Tweaked: CSS and JS improved.
+
+Version: 1.6.0 // 22-01-2022
+Added: Fly Cart add-on.
+Added: Product size chart add-on and widget.
+Fixed: Badge add-on percentage issue.
+Tweaked: CSS and JS improved.
+
+Version: 1.5.1 // 03-01-2022
+Improved: Radio Button fo additional checkout-field MOdule
+Fixed: Comparison Share URL
+Fixed: Text domain for translate
+Fixed: Checkout additional field radio input field visual issue;
+Tweaked: CSS and JS improved
+
+Version: 1.5.0 // 15-12-2021
+Added: Translation support pre-order add-on some static text
+Added: Comparison bar on wp-footer hook
+Fixed: Password reset mail sending message issue
+Fixed: Warning message on linux server
+
+Version: 1.4.0 // 08-12-2021
+Added: Comparison Custom Endpoint for sharing
+Added: Comparison Share to Facebook, Twitter
+Added: Copy comparison share url
+Added: Custom Meta Showing Support for setting
+Added: Attributes Showing Support for setting
+Added: Show Compare Button/Bar On Bottom
+Added: Widget for comparison button
+Fixed: fix checkbox vertical alignment issue
+Fixed: fix some responsive issue
+Tweaked: CSS and JS improved
+
+Version: 1.3.1 // 02-12-2021
+Improved: Product list widget Order By And Show Product By control
+Tweaked: CSS and JS improved
+
+Version: 1.3.0 // 25-11-2021
+Added: Off-Canvas Layout Option for Product Filters Widget.
+Added: Best Selling product widget
+Added: Dynamic field for comparison add-on.
+Fixed: Responsive Grid for Product Filters Widget.
+Tweaked: CSS and JS improved
+
+Version: 1.2.0 // 14-11-2021
+Added: Reminder Mail for partial Payment second installment.
+Fixed: Fatal error on php 7.0 resolved.
+Fixed: Currency switcher price round issue.
+Tweaked: CSS and JS improved
+
+Version: 1.1.0 // 28-10-2021
+Added: Image filter have been added to the product filter widget
+Added: Label filter have been added to the product filter widget
+Added: Shipping filter have been added to the product filter widget
+Added: Stock filter have been added to the product filter widget
+Added: OnSale filter have been added to the product filter widget
+Added: Custom Attributes filter have been added to the product filter widget
+Added: Card/Collapse view mode have been added to the product filter widget
+Tweaked: Shifted sales-notification js to defer mode
+Tweaked: More filter options on our filter widget. (users can filter products by literally anything )
+Tweaked: CSS and JS improved
+
+Version: 1.0.5 // 26-10-2021
+Added: option added to change the buy now text for quick checkout button
+Tweaked: CSS and JS improved
+
+Version: 1.0.4 // 21-10-2021
+Added: 5 new starter templates added for shop page, single page and checkout page
+Fixed: Some minor bugs
+Tweaked: CSS and JS improved
+
+Version: 1.0.3 (19 Oct, 2021)
+Added: Product image gallery slider and now can move to left and right side
+Fixed: Product Filter Columns responsive issue
+
+Version: 1.0.2 (11 Oct, 2021)
+Added: Currency Switcher support for Partial Payment ( To pay & Due Amount)
+Added: Prevent Guest user checkout  with partial payment
+Fixed: Fatal Error when set sale_price to product from pre-order Price
+Fixed: Quick checkout shows the cart page based on woocommerce settings issue is fixed.
+Fixed: Inconsistency on calculating discount percent issue is resolved.
+Tweaked: Make by default check full payment button in Partial Payment
+Improved: Add to cart message and prevention for adding product as full payment  and partial payment .
+Tweaked: CSS and JS improved
+
+
+Version: 1.0.1 (07 Oct, 2021)
+Added: Checkout Additional Field Module for Checkout Template.
+Fixed: Disabled sales notifications loading in elementor edit view.
+Tweaked: Better Modal Popup support for Quick View, Quick Checkout and Comparison Module.
+Tweaked: Responsive Toggler Support for Product Filters Widget.
+Tweaked: CSS and JS improved
+
+
+Version: 1.0.0-beta1 (01 Oct, 2021)
+Initial Release.
